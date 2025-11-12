@@ -212,13 +212,13 @@ The diary has notes on the ancient ruins. You glance at it but
 you already know all about it.
                     """,
                     """
-The diary has a huge penis drawn on it
-                    """,
+The diary has a massive L on it.
+                    """, 
                     """
 The diary has some spells written on it. Too bad you're not a mage.
                     """,
                     """
-The diary is blank.
+The diary is empty. What? You are unhappy? Fuck you.
                     """,
                 ]
                 ps.print_slow(random.choice(a))
@@ -249,7 +249,7 @@ spark of fire. You leave.
                     """,
                     """
 The campsite is full of travellers. They look at you strangely, almost as if with pity.
-You run out embarassed.
+You run out embarassed. But wait, this little girl offers you a candy! Atleast you got something.
                     """,
                     """
 The campsite is dead. There is no one around, not even a 
@@ -312,7 +312,7 @@ portal nearby and get into it. It throws you back to where you got sucked in.
                     "The bandits got scared and ran away!",
                     """
 Most of the bandits ran away but one was foolish enough to stay. 
-You slaughtered him.
+You slaughtered him. RIP.
                     """,
                 ]
                 ps.print_slow(random.choice(a))
@@ -470,7 +470,7 @@ The hermit looks at you with a gentle smile, but stays silent.\n"""
                 ps.print_slow("You cautiously open the chest...")
                 ps.print_slow("You find a shiny gem inside!")
             else:
-                ps.print_slow("There is no chest around")
+                ps.print_slow("There is no chest around.")
 
     elif verb == "leave":
         if noun == "chest":
